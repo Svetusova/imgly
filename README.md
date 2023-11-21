@@ -15,7 +15,7 @@ This test assignment involves the utilization of the MVVM architecture, incorpor
 
 All data is retrieved at the network level in the ```APIClient.swift```:
 
-```
+```swift
 static func fetchData(_ completion: @escaping ([Item], String?) -> Void) {
         let api = path + "data.json"
         var items: [Item] = []
@@ -58,7 +58,7 @@ func fetchData() {
 
 The implementation of the interaction is only deleting and moving items visually:
 
-```
+```swift
 .onDelete { indexSet in
     viewModel.delete(at: indexSet)
 }
@@ -71,7 +71,7 @@ The implementation of the interaction is only deleting and moving items visually
 
 The same like for fetching imgly items but passing the ```id``` if it exists to present item details: 
 
-```
+```swift
 static func fetchItemDetails(_ id: String, _ completion: @escaping (ItemDetails?, String?) -> Void) {
     let api = path + "entries/\(id).json"
     var item: ItemDetails?
