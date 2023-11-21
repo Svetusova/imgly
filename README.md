@@ -3,8 +3,8 @@
 Two screenshots of the first screen showcasing both light and dark themes:
 
 <p align="row">
-<img src= "https://github.com/Svetusova/imgly/assets/12214537/46cd6f16-79f9-4488-819d-2ac5c80eb123" width="300" hspace="50">
-<img src= "https://github.com/Svetusova/imgly/assets/12214537/82d5be36-8077-45a5-ac4c-ce7c8466d7a5" width="300" hspace="20">
+<img src= "https://github.com/Svetusova/imgly/assets/12214537/faa618de-1b1d-49e9-b142-cdde8bc8e800" width="300" hspace="50">
+<img src= "https://github.com/Svetusova/imgly/assets/12214537/3720c42c-b912-49a0-99b2-8be6b710334b" width="300" hspace="20">
 </p>
 
 This test assignment involves the utilization of the MVVM architecture, incorporating Combine and SwiftUI.
